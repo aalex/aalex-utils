@@ -18,3 +18,6 @@ set mouse=a
 
 au BufNewFile,BufRead *.cpp set syntax=cpp11
 
+" highlight text after 80th column
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
