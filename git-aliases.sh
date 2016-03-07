@@ -22,3 +22,6 @@ git config --global color.ui true
 git config --global core.editor vim
 git config --global format.pretty oneline
 
+git config --global diff.tool vimdiff
+git config --global merge.tool vimdiff
+git config --global difftool.prompt false
