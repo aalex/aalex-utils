@@ -17,4 +17,8 @@ colo desert
 set mouse=a
 
 au BufNewFile,BufRead *.cpp set syntax=cpp11
+au BufNewFile,BufRead *.pde set syntax=java
+au BufNewFile,BufRead *.ido set syntax=cpp
 
+filetype plugin indent on
+:set colorcolumn=80
