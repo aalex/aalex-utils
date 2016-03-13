@@ -13,7 +13,8 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 set hlsearch
-colo desert
+"colo desert
+colo koehler
 set mouse=a
 
 au BufNewFile,BufRead *.cpp set syntax=cpp11
