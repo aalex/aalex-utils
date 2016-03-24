@@ -13,13 +13,13 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 set hlsearch
-"colo desert
 colo koehler
 set mouse=a
 
 au BufNewFile,BufRead *.cpp set syntax=cpp11
 au BufNewFile,BufRead *.pde set syntax=java
 au BufNewFile,BufRead *.ido set syntax=cpp
+au BufNewFile,BufRead *.frag,*.vert,*.fp,*.vp,*.glsl setf glsl
 
 " color line on 80th column
 filetype plugin indent on
