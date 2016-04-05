@@ -23,6 +23,7 @@ au BufNewFile,BufRead *.pde set syntax=java
 au BufNewFile,BufRead *.jxs set filetype=xml
 au BufNewFile,BufRead *.ino set syntax=cpp
 au BufNewFile,BufRead *.frag,*.vert,*.fp,*.vp,*.glsl setf glsl
+au BufNewFile,BufRead *.glsl,*.frag,*.vert set syntax=glsl
 
 " color line on 80th column
 filetype plugin indent on
