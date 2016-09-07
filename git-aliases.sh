@@ -9,6 +9,7 @@ git config --global alias.di diff
 git config --global alias.he help
 git config --global alias.ini init
 git config --global alias.in init
+git config --global alias.lo "log --all --graph --abbrev-commit --decorate --pretty=full"
 git config --global alias.pul pull
 git config --global alias.pl pull
 git config --global alias.pus push
