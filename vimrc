@@ -32,3 +32,8 @@ filetype plugin indent on
 " highlight text after 80th column
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
+
+" QML plugin
+" Plugin 'crucerucalin/qml.vim'
+au BufNewFile,BufRead *.qml set syntax=qml
+autocmd Filetype qml setlocal ts=2 sw=2 expandtab
