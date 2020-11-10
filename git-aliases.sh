@@ -1,4 +1,5 @@
 #!/bin/bash
+
 git config --global alias.ad add
 git config --global alias.bi bisect
 git config --global alias.br branch
@@ -28,3 +29,5 @@ git config --global diff.tool vimdiff
 git config --global merge.tool vimdiff
 git config --global difftool.prompt false
 git config --global diff.algorithm minimal
+
+git config --global pull.rebase true
