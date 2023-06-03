@@ -30,4 +30,6 @@ git config --global difftool.prompt false
 git config --global format.pretty oneline
 git config --global merge.tool vimdiff
 git config --global pull.rebase true
+git config --global push.autoSetupRemote true
+git config --global alias.l "log --graph --pretty=format:\"%h%x09 %ai %s\""
 
