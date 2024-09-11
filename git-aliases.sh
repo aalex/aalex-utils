@@ -17,6 +17,7 @@ git config --global alias.pl pull
 git config --global alias.ps push
 git config --global alias.pul pull
 git config --global alias.pus push
+git config --global alias.rel "git log --pretty=format:\"%s\""
 git config --global alias.st status
 git config --global color.branch auto
 git config --global color.diff auto
